@@ -1,13 +1,137 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  background: #F1FCFF;
+  color: #4A4A4A;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  display: flex;
+}
+.main-page{
+  
+  display: flex;
+  margin: 20px auto;
+
+}
+.main{
+  width: 602px;
+  margin: 20px auto 30px;
+  background: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1));
+}
+.main:hover{
+  background: #fafafa;
+}
+
+.price-name{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 0;
+}
+.main-date{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+
+}
+.there, .back{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  
+  
+}
+.price{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #2196F3;
+}
+.span{
+  color: #A0B0B9;
+}
+p{
+  font-size: 14px;
+  font-weight: 700;
+}
+.price-filter{
+  width: 602px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.filter-btn{
+
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  width: 33%;
+  height: 50px;
+}
+.filter-btn:hover{
+  background: #2196F3;
+  color: white;
+}
+
+.active{
+  background: #2196F3;
+  color: white;
+}
+
+.transfer-main{
+  background: white;
+  margin:0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 232px;
+
+}
+.transfer-main>p{
+  font-size: 16px;
+}
+.filter-item{
+  display: flex;
+  width: 150px;
+
+}
+ input{
+  margin: 0 10px;
+  vertical-align: middle;
+  border: 1px solid #2196F3;
+}
+li{
+  list-style: none;
+}
+.transfer-name{
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+}
+.transfer-bottom{
+  cursor: pointer;
+  margin: 0 11px;
+  font-size: 17px;
+
+}
+.transfer-bottom:hover{
+  background: #F1FCFF;
+  
+}
+
+.transfer-filter-width{
+  width: 260px;
+  height: auto;
+  margin: 0 20px;
+  padding: 10px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkbox{
+  display: inline-block;
 }
